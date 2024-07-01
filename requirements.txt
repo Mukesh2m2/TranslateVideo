@@ -1,0 +1,10 @@
+librosa===0.10.2.post1
+google==3.0.0
+google-cloud-speech==2.26.0
+google-cloud-translate==3.15.3
+google-cloud-texttospeech==2.16.3
+moviepy==1.0.3
+torch==2.3.1
+opencv-python==4.10.0.84
+numpy==1.26
+pysrt==1.1.2
