@@ -1,4 +1,4 @@
-# TranslateVideo
+# Multilingual Video Lectures
 Tool for making lectures accessible by translating videos fron one language to user preferred language.
 
 ## Features
@@ -7,12 +7,12 @@ Tool for making lectures accessible by translating videos fron one language to u
 - Generates subtitle files in SRT format in the user’s chosen language.
 - Ensures seamless synchronization between audio and video for an optimal viewing experience.
 - Uses Google Speech-to-Text, Translate, and Text-to-Speech APIs for audio translation.
-- Utilizes moviepy and librosa for video processing, including removing audio from videos and recombining them after audio translation..
+- Utilizes moviepy and librosa for video processing, including removing audio from videos and recombining them after audio translation.
 - Integrates vocal-remover to separate instrumental and vocal audio tracks.
 - Uses pysrt to generate subtitle files.
 
 
-`
+
 ## Usage
 Install dependencies
 ```
@@ -26,14 +26,14 @@ We are using vocal-remover to separate vocal and instrumental audios.
 - Then extract and just take folder named vocal-remover and put in this folder
 
 
-Review and alter `run.py` file as preferences for selecting input file name, input language and output language .
+Review and alter `run.py` file as preferences for selecting input file name, input language and output language.
 
 For dubbing the video in different language, run below command
 ```
 python run.py
 ```
 
-For generating the subtitles , run below command
+For generating the subtitles, run below command
 
 ```
 python subtitles.py
